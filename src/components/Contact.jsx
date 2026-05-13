@@ -82,7 +82,7 @@ function Contact() {
                 : "bg-brand-green/10 text-brand-green border-brand-green shadow-[0_0_15px_rgba(29,185,84,0.3)]"
             }`}
           >
-            {status === "idle" && "Submit Solution"}
+            {status === "idle" && "Submit"}
             {status === "running" && `Running on test ${testCase}...`}
             {status === "accepted" && "Verdict: Accepted"}
           </button>
