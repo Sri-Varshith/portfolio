@@ -3,6 +3,7 @@ import Preloader from './components/Preloader';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -33,6 +34,7 @@ function App() {
         <main className="max-w-7xl mx-auto pb-20">
           <Hero />
           <Projects />
+          <Skills />
         </main>
       </div>
     </div>
