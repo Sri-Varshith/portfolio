@@ -6,11 +6,22 @@ function Navbar() {
         <span className="text-brand-green">.</span>
       </div>
       
-      <ul className="hidden md:flex gap-8 font-mono text-sm text-zinc-400">
-        <li className="hover:text-brand-green transition-colors cursor-pointer">/about</li>
-        <li className="hover:text-brand-green transition-colors cursor-pointer">/projects</li>
-        <li className="hover:text-brand-green transition-colors cursor-pointer">/skills</li>
-        <li className="hover:text-brand-green transition-colors cursor-pointer">/contact</li>
+<ul className="hidden md:flex gap-8 font-mono text-sm text-zinc-400">
+        <li>
+          <a href="#about" className="hover:text-brand-green transition-colors">/about</a>
+        </li>
+        <li>
+          <a href="#projects" className="hover:text-brand-green transition-colors">/projects</a>
+        </li>
+        <li>
+          <a href="#skills" className="hover:text-brand-green transition-colors">/skills</a>
+        </li>
+        <li>
+          <a href="#experience" className="hover:text-brand-green transition-colors">/experience</a>
+        </li>
+        <li>
+          <a href="#contact" className="hover:text-brand-green transition-colors">/contact</a>
+        </li>
       </ul>
 
       <button className="hidden md:block px-4 py-2 border border-brand-green text-brand-green font-mono text-sm rounded hover:bg-brand-green/10 transition-colors">

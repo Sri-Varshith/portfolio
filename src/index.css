@@ -11,3 +11,11 @@ body {
   @apply bg-dark-bg text-zinc-100;
   font-family: 'Inter', sans-serif; 
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 50px;
+}

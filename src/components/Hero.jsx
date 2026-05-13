@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="w-full min-h-[80vh] flex flex-col justify-center items-start px-6 md:px-20 mt-16">
+    <section id="about" className="w-full min-h-[80vh] flex flex-col justify-center items-start px-6 md:px-20 mt-16">
       <p className="font-mono text-brand-green mb-4">
         {">"} user.login()
       </p>
