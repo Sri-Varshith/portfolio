@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand-green: #1db954;
+  --color-dark-bg: #09090b;    
+  --color-cf-blue: #3182ce;   
+}
+
+/* Base styles to make the dark mode the default */
+body {
+  @apply bg-dark-bg text-zinc-100;
+  font-family: 'Inter', sans-serif; 
+}
