@@ -12,12 +12,6 @@ function Footer() {
         </p>
       </div>
 
-      <div className="flex gap-6 font-mono text-sm mb-4 md:mb-0">
-        <a href="#" className="text-zinc-400 hover:text-white transition-colors">GitHub</a>
-        <a href="#" className="text-zinc-400 hover:text-cf-blue transition-colors">Codeforces</a>
-        <a href="#" className="text-zinc-400 hover:text-brand-green transition-colors">LinkedIn</a>
-        <a href="#" className="text-zinc-400 hover:text-white transition-colors">Twitter</a>
-      </div>
 
       <div className="text-zinc-600 font-mono text-xs">
         {">"} return 0;
