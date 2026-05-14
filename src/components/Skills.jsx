@@ -1,21 +1,21 @@
 function Skills() {
   // Organizing skills into categories makes it much easier to read
-  const skillCategories = [
+const skillCategories = [
     {
       title: "Languages",
-      skills: ["C++", "C", "Python", "JavaScript", "SQL"]
+      skills: ["C/C++", "Python", "JavaScript", "Dart", "SQL", "Kotlin"]
     },
     {
-      title: "Systems & Architecture",
-      skills: ["Linux/Unix", "Multithreading", "Sockets", "Memory Management", "Data Structures"]
-    },
-    {
-      title: "Web Technologies",
-      skills: ["React", "Node.js", "Tailwind CSS", "Vite", "REST APIs"]
+      title: "Frameworks & Databases",
+      skills: ["React", "Node.js", "Flutter", "Supabase", "SQLite", "Firebase"]
     },
     {
       title: "Tools & Environment",
-      skills: ["Git", "Bash", "Neovim", "Docker", "GDB"]
+      skills: ["Git", "Bash", "Android Studio"]
+    },
+    {
+      title: "Currently Exploring",
+      skills: ["Go", "Native Android"]
     }
   ];
 
@@ -34,7 +34,7 @@ function Skills() {
         {skillCategories.map((category, index) => (
           <div 
             key={index} 
-            className="bg-zinc-900/50 border border-zinc-800 p-6 rounded hover:border-zinc-700 transition-colors"
+            className="bg-zinc-900/50 border border-zinc-800 p-6 rounded hover:border-brand-green hover:shadow-[0_0_15px_rgba(29,185,84,0.15)] transition-all duration-300"
           >
             <h3 className="text-xl font-bold text-white mb-4 border-b border-zinc-800 pb-2">
               {category.title}
