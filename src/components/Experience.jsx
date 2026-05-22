@@ -10,14 +10,14 @@ function Experience() {
     {
       role: "Mentor",
       company: "Openlake — The Open Source Club, IIT Bhilai",
-      duration: "2025 - Apr 2026",
+      duration: "Aug 2025 - May 2026",
       description:
         "Mentored students in Git/GitHub workflows and guided open-source contributions."
     },
     {
       role: "Core Member",
       company: "Ingenuity — Competitive Programming Club, IIT Bhilai",
-      duration: "2025 - Apr 2026",
+      duration: "Aug 2025 - May 2026",
       description:
         "Organized coding contests and helped students with DSA and competitive programming."
     }
